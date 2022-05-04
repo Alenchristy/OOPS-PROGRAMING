@@ -8,11 +8,11 @@ calculate method from interface.
 import java.util.*;
 
 interface BillGen{
-	void calculate();
+	void Calculate();
 }
 
 
-class ProductB{
+class ProductB implements BillGen{
 	String name;
 	int prod_id;
 	int quantity;
